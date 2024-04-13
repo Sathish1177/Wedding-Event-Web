@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.imgg2{
+    display: none;
+}
+.fcontent{
+    color: rgb(8, 8, 8);
+    margin-top: -250px;
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flogo{
+   
+    width: 220px;
+    padding: 0px;
+}
+.flogo img{
+    width: 150px;
+    
+    margin-left:35px;
+}
+.faboutus{
+    width: 220px;
+    padding: 0px;
+}
+.faboutus h6{
+    font-size: 16px;
+}
+.faboutus p{
+    margin-top: 12px;
+    font-size: 14px;
+}
+.fservices{
+    width: 140px;
+    padding: 0px;
+}
+.fservices h6{
+    font-size: 16px;
+}
+.fservices ul{
+    line-height: 23px;
+    margin-top: 15px;
+    font-size: 14px;
+    margin-left: 12px;
+}
+.fGallery{
+    
+    width: 220px;
+    padding: 0px;
+}
+.fGallery h6{
+    font-size: 16px;
+}
+.fGallery div{
+    margin-top: 12px;
+}
+
+.ffollow{
+    /* border: 1px solid black; */
+    width: 250px;
+    padding: 0px;
+}
+.ffollow h6{
+    font-size: 16px;
+}
+.ffollow div{
+    margin-top: 12px;
+}
+.fpara p{
+    width: 200px;
+    margin-top: 35px;
+    font-size: 14px;
+}
+@media screen and (max-width:1440px){
+    .fcontent{
+        
+        margin-top: -250px;
+        /* font-size: 20px; */
+    }
+    .flogo{
+   
+        width: 220px;
+        padding: 15px;
+    }
+
+}
+
+@media screen and (max-width:1380px){
+    .imgg{
+     height: 250px;
+    }
+    .flogo img{
+        width: 150px;
+        
+        margin-left:10px;
+    }
+    .fcontent{
+        width: 100%;
+        color:rgb(10, 7, 7);
+        /* display: block;
+        background-color: aqua; */
+        margin-top: -245px;
+        
+    }
+    .faboutus{
+        width: 260px;
+        padding: 10px;
+    }
+    .fGallery{
+    
+        /* width: 310px; */
+        padding: 10px;
+    }
+    .ffollow{
+        /* border: 1px solid black; */
+        width: 195px;
+        padding: 10px;
+    }
+    .fservices ul{
+        line-height: 20px;
+        margin-top: 15px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .fservices{
+        width: 140px;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width:1093px){
+    .imgg{
+        height: 250px;
+       }
+    .fcontent{
+        
+        margin-top: -250px;
+        font-size: 20px;
+    }
+    .fGallery{
+        width: 300px;
+    }
+   
+
+}
+
+@media screen and (max-width:1003px){
+    .imgg{
+        width: 100%;
+        height: 830px;
+       }
+    .fcontent{
+        /* background-color: black; */
+       margin-top: -827px;
+      display: block;
+      justify-content: center;
+    }
+    /* .flogo{
+    
+   } */
+   .faboutus{
+   padding-left: 40px;
+   }
+   .fservices{
+    padding-left: 40px;
+   }
+    .fGallery{
+       width: 200px;
+       padding-left: 40px;
+   }
+   .ffollow{
+  
+    padding-left: 40px;
+   }
+
+}

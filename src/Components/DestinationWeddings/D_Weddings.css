@@ -1,0 +1,85 @@
+.image {
+    background-image: url("../img/allpageimg.png");
+    background-size: cover; 
+    background-position: center;
+    width: 100%; 
+    height: auto; 
+    padding: 120px 0;
+    box-sizing: border-box;
+}
+.image h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.content {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+}
+.content .headingd {
+    width: 100%;
+    
+}
+.headingd h1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 60px;
+}
+.headingd h2 {
+
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.headingd p{
+   
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+.container2 {
+    display: flex;
+  
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.gallery1{
+    position: relative;
+    padding-top: 20px;
+    max-width: 230px;
+    margin: 10px;
+
+    
+}
+.gallery1 img {
+    width: 100%;
+    height: auto;
+  
+}
+.desc1 {   
+    width:100%;
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+   
+}

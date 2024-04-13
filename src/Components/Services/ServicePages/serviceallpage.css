@@ -1,0 +1,83 @@
+.container15{
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+
+}
+/* .row{
+    margin-right:-15px;
+    margin-left:-15px;
+
+} */
+
+.col-md-12,
+.col-md-5,.col-md-7
+{
+    position: relative;
+    min-height: 1px;
+    padding-right:0px;
+    padding-left:0px
+
+}
+.col-md-12,
+.col-md-5,
+.col-md-7
+{
+    float:left
+}
+.col-md-12
+{
+    width:100%
+}
+.col-md-7
+{
+     width:55.33333333%
+}
+.col-md-5
+{
+   padding: 15px;
+    width:40.66666667%
+}
+.col-md-5 img
+{
+    width: 100%;
+}
+     
+.viv_website_title{
+    color: #e60088; 
+    text-align: center; 
+    font-weight: bold;
+    font-family: lufga bold;
+}
+.viv_website_para{
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 2em;
+}
+.viv_planning_headng_txt{
+  padding-top: 20px;
+  padding-bottom: 50px;
+    text-align: left; 
+    color: #a60000; 
+    font-weight: bold;
+    font-family:  lufga Regular;
+}
+
+@media screen and (max-width: 798px) {
+.col-md-12,
+.col-md-5,
+.col-md-7 {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    float: none;
+}
+.col-md-5,
+.col-md-7 {
+    margin-bottom: 20px;
+}
+}

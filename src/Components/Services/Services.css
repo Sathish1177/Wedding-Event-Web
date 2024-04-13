@@ -1,0 +1,119 @@
+.image2 {
+    background-image: url("../img/allpageimg.png");
+    background-size: cover; 
+    background-position: center;
+    width: 100%; 
+    height: auto; 
+    padding: 120px 0;
+    box-sizing: border-box;
+}
+.image2 h2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* Content Section */
+.content {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+}
+.content .headings {
+    width: 100%;
+}
+.headings h1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 31px;
+    text-align: center;
+    padding-top: 60px;
+}
+.headings h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 10px;
+}
+.headings p{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+/* Gallery Section */
+.container2 {
+    display: flex;
+    margin-bottom: 20;
+    padding-top: 20px;
+    padding-left: 190px;
+    padding-right: 190px;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.gallery1 {
+    position: relative;
+    padding-top: 20px;
+    max-width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.gallery1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.desc {   
+    position: absolute;
+    text-transform: uppercase;
+    bottom: 5px;
+    left: 0; 
+    width: 100%;
+    color: #fff;
+    background-color: #070807e1;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    /* font-weight: 500; */
+    font-style: normal;
+    font-size: 18px;
+}
+.desc:hover {
+    opacity: 0.5; 
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .container2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .gallery1 {
+        width: calc(50% - 20px);
+        max-width: calc(50% - 20px); 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container2 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .gallery1 {
+        width: calc(100% - 20px); 
+        max-width: calc(100% - 20px); 
+    }
+}

@@ -1,0 +1,49 @@
+/*.number-counter {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .count {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .label {
+    font-size: 16px;
+    color: #777;
+  }
+   */
+   .count{
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+   }
+   .number-counter{
+    /* border: 1px solid black; */
+    box-shadow: 
+    0 4px 6px rgba(23, 22, 22, 0.1) /* top */,
+    0 -4px 6px rgba(23, 22, 22, 0.1) /* bottom */,
+    4px 0 6px rgba(23, 22, 22, 0.1) /* right */,
+    -4px 0 6px rgba(23, 22, 22, 0.1); /* left */
+    border-radius: 17px;
+    padding: 20px;
+   }
+   .line{
+    width: 100px;
+    border: 1px solid black;
+   }
+.label{
+    font-size: 20px;
+    color: rgb(33, 30, 30);
+}
+.top{
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 500px){
+
+  .number-counter{
+    margin: 45px;
+  }
+}

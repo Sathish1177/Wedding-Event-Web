@@ -1,0 +1,154 @@
+nav {
+    max-width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .listsn {
+    background-color: white;
+    /* border: 0.5px solid wheat; */
+    margin: 25px 30px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100%;
+  }
+  
+  .logo {
+    margin-left: 10px;
+    z-index: 999;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: 70px;
+  }
+  
+  .listsn ul {
+    margin-top: -70px;
+    margin-left: 150px;
+  }
+  
+  .listsn ul .sss {
+    margin: 20px;
+  }
+  
+  .listsn ul .sss li {
+    display: inline-block;
+    /* margin: 0 5px; */
+    font-family: "Barlow", sans-serif;
+  
+    font-style: normal;
+    font-size: 16px;
+      display: inline-block;
+      margin: 0 5px;
+      color: black;
+      text-decoration: none;
+      margin-left: 15px;
+  }
+  nav .listsn ul .sss li a {
+    color:  black;
+    text-decoration: none;
+  }
+  .rightnav li {
+    float: right;
+    margin-top: -55px;
+    border: 1px solid wheat;
+    border-radius: 50px;
+    padding: 10px 25px;
+    margin-left: auto;
+    /* background-color: red; */
+  }
+  nav .listsn ul .rightnav li a {
+    color: rgb(137, 44, 44);
+    text-decoration: none;
+  }
+  
+  /* nav .listsn ul .sss li a {
+    color: #333;
+    font-weight: 600;
+    font-family: barlow;
+    text-decoration: none;
+    margin-left: 15px;
+  } */
+  
+  .listsn ul div.sss li:hover a {
+    color: red; /* Change to your desired hover color */
+  }
+
+  .listsn ul div.sss li a.active1 {
+    color: green; /* Change to your desired active color */
+  }
+  
+  .checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  @media (max-width: 952px) {
+    .logo img {
+      margin-top: 8px;
+      width: 120px;
+      height: 70px;
+    }
+    nav .listsn li a {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 502px) {
+    .logo img {
+      margin-top: 10px;
+      width: 100px;
+      height: 50px;
+    }
+  }
+  
+  @media (max-width: 1020px) {
+    .checkbtn {
+      display: block;
+    }
+    .listsn ul {
+      margin-left: 0px;
+      position: absolute;
+      width: 100%;
+      height: auto;
+      top: 193px;
+      left: -500%;
+      background-image: url("../img/sss2.jpg");
+      text-align: center;
+      transition: all 0.60s;
+    }
+    nav .listsn ul .sss li {
+      display: block;
+      margin: 20px 0;
+      line-height: 30px;
+    }
+    nav .listsn ul .sss li a {
+      font-size: 20px;
+    }
+    nav .listsn ul .rightnav {
+      display: block;
+      margin-top: 60px;
+    }
+    nav .listsn ul .rightnav li a {
+      font-size: 20px;
+    }
+    /* a:hover,
+    a.active {
+      background: none;
+      color: #ff7200;
+    } */
+    #check:checked ~ ul {
+      left: 0;
+    }
+  }
